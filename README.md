@@ -33,6 +33,14 @@ Use je.
     {"key": "value", "keys": "values"}
     root@server:~# 
     ```
+    Marshall into string:
+    ```bash
+    root@master:~# je version=1.0
+    {"version": 1.0}
+    root@master:~# je version=\"1.0\"
+    {"version": "1.0"}
+    ```
+
 3. Chain it
     
     - Notes:
@@ -49,7 +57,6 @@ Use je.
         ]
     }
     }
-
     ```
 4. Become wizard
     ```bash
