@@ -4,7 +4,11 @@ json encode tool (je for short)
 A simple dependency-free python script for generating json in bash
 
 ### Usage
-```bash
+```
+je [-l|-d] [value1] [value2] ...
+
+-l | --list or -a | --array for list mode 
+-d | --dict or -o | --object for object mode
 
 ```
 ## Introduction
